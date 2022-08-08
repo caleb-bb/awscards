@@ -16,7 +16,8 @@
 <%= if @live_action == :quiz do %>
   <.modal return_to={Routes.card_index_path(@socket, :index)}>
     <.live_component
-      module={AwscardsWeb.CardLive.FormComponent}
+      module={AwscardsWeb.CardLive.QuizComponent}
+      card={@card}
       id={:new}
       title={@page_title || :title}
       action={@live_action}

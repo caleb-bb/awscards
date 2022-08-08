@@ -18,6 +18,7 @@ defmodule AwscardsWeb.CardLive.Index do
   defp apply_action(socket, :quiz, _params) do
     socket
     |> assign(:page_title, "QUIZ TIME!!! AAAARRRGRHHHHGDfkjGHLF")
+    |> assign(:card, Deck.get_card!("0"))
   end
 
   defp apply_action(socket, :edit, %{"id" => id}) do
