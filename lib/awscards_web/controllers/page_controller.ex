@@ -1,0 +1,7 @@
+defmodule AwscardsWeb.PageController do
+  use AwscardsWeb, :controller
+
+  def index(conn, _params) do
+    render(conn, "index.html")
+  end
+end

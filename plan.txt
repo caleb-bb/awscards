@@ -1,0 +1,1 @@
+NOTE FOR TOMORROW: the main idea here is to copy the form_component code for a new modal entitled quiz. The quiz modal will pull a set of four random card backs and ask you to pick the correct one for the card front that you chose. Eventually, I would like to implement a pdf parser that makes flash cards out of pdfs.
